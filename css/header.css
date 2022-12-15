@@ -1,0 +1,43 @@
+.header {
+  background-color: #131111;
+  padding-top: 13px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.logo {
+  width: 62px;
+  height: 30px;
+}
+
+.lang_active,
+.menu__item_active {
+  color: #D8D8D8;
+}
+
+.menu__list {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.tools {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+.tools__list {
+  display: flex;
+  gap: 16px;
+}

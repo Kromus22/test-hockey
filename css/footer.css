@@ -1,0 +1,55 @@
+.footer {
+  margin-top: 100px;
+}
+
+.footer__title {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.footer__social {
+  display: flex;
+  gap: 16px;
+}
+
+.footer-left {
+  max-width: 354px;
+  max-height: 382px;
+}
+
+.footer-left__list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.footer-left__item dt {
+  color: #BCBCBC;
+  margin-bottom: 4px;
+}
+
+.footer-left__item dd {
+  color: #333333;
+}
+
+.footer-left__item address {
+  font-style: normal;
+}
+
+.footer-left__item-contacts {
+  display: flex;
+  gap: 48px;
+}
+
+.footer-left__item-tax {
+  display: flex;
+  gap: 90px;
+  margin-bottom: 68px;
+}
+
+/* сделал бордером потому что так больше подходило по макету, чем текст-декорейшеном */
+.footer-left__item-copyright a {
+  border-bottom: 1px solid;
+}
