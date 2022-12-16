@@ -10,8 +10,12 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
 
   <link rel="stylesheet" href="css/index.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js" defer></script>
+  <script src="js/index.js" defer></script>
 </head>
 
 <body>
@@ -72,6 +76,60 @@
   </header>
   <main>
 
+    <section class="slider-block">
+      <div class="container">
+        <h1 class="visually-hidden">Заряд. Хоккейная экипировка для Вас!</h1>
+        <div class="promo-wrapper">
+          <img class="promo__img" src="img/zaryad.svg" alt="big logo">
+
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="slider__item">
+                  <div class="info">
+                    <h2 class="name">Константин Константинович</h2>
+                    <p class="proff">Крутой хоккеист такой-то команды</p>
+                    <a href="#" class="play-btn"></a>
+                  </div>
+                  <button class="add-btn"></button>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="slider__item">
+                  <div class="info">
+                    <h2 class="name">Константин Константинович</h2>
+                    <p class="proff">Крутой хоккеист такой-то команды</p>
+                    <a href="#" class="play-btn"></a>
+                  </div>
+                  <button class="add-btn"></button>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="slider__item">
+                  <div class="info">
+                    <h2 class="name">Константин Константинович</h2>
+                    <p class="proff">Крутой хоккеист такой-то команды</p>
+                    <a href="#" class="play-btn"></a>
+                  </div>
+                  <button class="add-btn"></button>
+                </div>
+              </div>
+            </div>
+
+            <div class="slider__btn swiper-button-left">
+              <img src="img/arrow-left.svg" alt="Переключение слайда назад">
+            </div>
+            <div class="slider__btn swiper-button-right">
+              <img src="img/arrow-right.svg" alt="Переключение слайда вперёд">
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
   </main>
   <footer class="footer">
     <div class="container">
@@ -128,6 +186,49 @@
               <a href="#">Политика конфиденциальности</a>
             </li>
           </ul>
+        </div>
+
+        <div class="footer-right">
+          <div class="footer-top">
+            <div class="about-us">
+              <h3 class="footer__subtitle">О бренде</h3>
+              <ul class="footer-right__list">
+                <li class="footer-right__item"> <a class="footer-right__link" href="#">История бренда</a></li>
+                <li class="footer-right__item"> <a class="footer-right__link" href="#">Технологии производства</a></li>
+                <li class="footer-right__item"> <a class="footer-right__link" href="#">Производство</a></li>
+                <li class="footer-right__item"> <a class="footer-right__link" href="#">Контакты магазинов</a></li>
+              </ul>
+            </div>
+
+            <div class="for-partners">
+              <h3 class="footer__subtitle">Партнерам</h3>
+              <ul class="footer-right__list">
+                <li class="footer-right__item"> <a class="footer-right__link" href="#">Как стать партнером</a></li>
+                <li class="footer-right__item"> <a class="footer-right__link" href="#">Как мы работаем</a></li>
+                <li class="footer-right__item"> <a class="footer-right__link" href="#">Информация о выборе
+                    контрагентов</a></li>
+              </ul>
+            </div>
+            <!-- сделал кнопку, а не ссылку, потому что логичней подходит, что на ней будет что-то вроде открытия модалки, 
+              а не перехода на другую страницу -->
+            <button class="feedback"></button>
+          </div>
+
+          <div class="footer-bottom">
+            <h3 class="footer__subtitle">Покупателям</h3>
+            <div class="footer-bottom_wrap">
+              <ul class="footer-right__list">
+                <li class="footer-right__item"> <a class="footer-right__link" href="#">Доставка и оплата</a></li>
+                <li class="footer-right__item"> <a class="footer-right__link" href="#">Обмен и возврат</a></li>
+                <li class="footer-right__item"> <a class="footer-right__link" href="#">Гарантия</a></li>
+              </ul>
+              <ul class="footer-right__list">
+                <li class="footer-right__item"> <a class="footer-right__link" href="#">Бонусная программа</a></li>
+                <li class="footer-right__item"> <a class="footer-right__link" href="#">Таблица размеров</a></li>
+                <li class="footer-right__item"> <a class="footer-right__link" href="#">Подарочный сертификат</a></li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </div>

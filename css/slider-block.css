@@ -1,0 +1,100 @@
+.slider-block {
+  background-color: #131111;
+  position: relative;
+  padding-bottom: 130px;
+}
+
+.promo-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.slider-block::after {
+  position: absolute;
+  content: '';
+  background-image: url(../img/red.svg);
+  width: 675px;
+  height: 700px;
+  left: 220px;
+  top: 0px;
+}
+
+.slider-block::before {
+  position: absolute;
+  content: '';
+  background-image: url(../img/blue.svg);
+  width: 1000px;
+  height: 700px;
+  right: 120px;
+  top: -50px;
+}
+
+.promo__img {
+  margin-bottom: 22px;
+}
+
+.slider__item {
+  position: relative;
+  width: 992px;
+  height: 601px;
+  background-image: url(../img/hockey.png);
+  background-size: 1000px auto;
+  background-position: 15% 25%;
+  border-radius: 100px 0px;
+  z-index: 5;
+}
+
+.info {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  height: 270px;
+  color: #F5F5F5;
+  top: 48px;
+  right: 0;
+}
+
+.name {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.2;
+  margin-bottom: 10px;
+}
+
+.proff {
+  max-width: 177px;
+  margin-bottom: 32px;
+}
+
+.play-btn {
+  background-image: url(../img/play.svg);
+  width: 125px;
+  height: 125px;
+}
+
+.add-btn {
+  background-image: url(../img/add-btn.svg);
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: -85px;
+  right: -125px;
+}
+
+.slider__btn {
+  position: absolute;
+  top: 280px;
+  cursor: pointer;
+}
+
+.swiper-button-left {
+  transform: translateX(-100px);
+  z-index: 1;
+}
+
+.swiper-button-right {
+  transform: translateX(1020px);
+  z-index: 2;
+}

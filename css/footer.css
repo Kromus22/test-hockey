@@ -1,5 +1,6 @@
 .footer {
   margin-top: 100px;
+  padding-bottom: 100px;
 }
 
 .footer__title {
@@ -12,6 +13,11 @@
 .footer__social {
   display: flex;
   gap: 16px;
+}
+
+.footer__nav {
+  display: flex;
+  gap: 167px
 }
 
 .footer-left {
@@ -41,15 +47,64 @@
 .footer-left__item-contacts {
   display: flex;
   gap: 48px;
+  font-feature-settings: 'pnum' on, 'lnum' on;
 }
 
 .footer-left__item-tax {
   display: flex;
   gap: 90px;
   margin-bottom: 68px;
+  font-feature-settings: 'pnum' on, 'lnum' on;
 }
 
 /* сделал бордером потому что так больше подходило по макету, чем текст-декорейшеном */
 .footer-left__item-copyright a {
   border-bottom: 1px solid;
+}
+
+.footer-right {
+  position: relative;
+  color: #333333;
+}
+
+.footer-top {
+  display: flex;
+  gap: 80px;
+  margin-bottom: 56px;
+}
+
+.footer__subtitle {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 24px;
+}
+
+.footer-right__list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.footer-bottom_wrap {
+  display: flex;
+  gap: 136px;
+}
+
+.feedback {
+  position: absolute;
+  background-image: url(../img/feedback.svg);
+  width: 150px;
+  height: 150px;
+  right: -135px;
+  top: -85px;
+}
+
+.footer-right::after {
+  position: absolute;
+  content: '';
+  background-image: url(../img/copy.svg);
+  width: 132px;
+  height: 32px;
+  right: -135px;
+  bottom: 3px;
 }
