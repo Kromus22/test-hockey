@@ -1,0 +1,77 @@
+.sale-block {
+  padding-top: 117px;
+  padding-bottom: 156px;
+  background-color: #131111;
+  position: relative;
+  overflow: hidden;
+}
+
+.sale__text {
+  font-weight: 700;
+  font-size: 90px;
+  line-height: 104px;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: transparent;
+  -webkit-text-stroke: 1px #BCBCBC;
+}
+
+.sale__text span {
+  color: #F5F5F5;
+  -webkit-text-stroke: 0px;
+}
+
+svg {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.text_wrap {
+  display: flex;
+  flex-direction: row;
+  gap: 19px
+}
+
+.sale__info {
+  margin-bottom: 40px;
+}
+
+.sale__form {
+  max-width: 490px;
+  border: 0px;
+}
+
+.sale__form-text {
+  font-size: 18px;
+  line-height: 24px;
+  color: #BCBCBC;
+  margin-bottom: 32px;
+}
+
+.sale__input {
+  all: unset;
+  width: 100%;
+  color: #7D7D7D;
+  border-bottom: 1px solid #7D7D7D;
+  opacity: 0.45;
+  margin-bottom: 56px;
+}
+
+.sale__btn {
+  background-image: url(../img/sub.svg);
+  width: 150px;
+  height: 150px;
+}
+
+.sale__bg {
+  width: 655px;
+  height: 655px;
+  position: absolute;
+  background-image: url(../img/hockey.png);
+  border-radius: 50%;
+  background-size: 983px auto;
+  background-position: 90% 25%;
+  right: -50px;
+  top: 85px;
+  outline: 1px solid #333333;
+  outline-offset: 40px;
+}
