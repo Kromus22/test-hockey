@@ -15,18 +15,18 @@
   position: absolute;
   content: '';
   background-image: url(../img/red.svg);
-  width: 675px;
-  height: 700px;
+  width: 674px;
+  height: 634px;
   left: 220px;
-  top: 0px;
+  top: 20px;
 }
 
 .slider-block::before {
   position: absolute;
   content: '';
   background-image: url(../img/blue.svg);
-  width: 1000px;
-  height: 700px;
+  width: 878px;
+  height: 645px;
   right: 120px;
   top: -50px;
 }

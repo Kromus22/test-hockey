@@ -28,7 +28,12 @@ svg {
 .text_wrap {
   display: flex;
   flex-direction: row;
-  gap: 19px
+  gap: 19px;
+  align-items: center;
+}
+
+.text_wrap svg {
+  transform: translateY(10px);
 }
 
 .sale__info {
@@ -54,6 +59,11 @@ svg {
   border-bottom: 1px solid #7D7D7D;
   opacity: 0.45;
   margin-bottom: 56px;
+  transition: border-bottom .3s ease-in-out;
+}
+
+.sale__input:focus {
+  border-bottom: 1px solid #D8D8D8;
 }
 
 .sale__btn {

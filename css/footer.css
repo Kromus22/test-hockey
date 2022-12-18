@@ -99,10 +99,8 @@
   top: -85px;
 }
 
-.footer-right::after {
+.copyright__img {
   position: absolute;
-  content: '';
-  background-image: url(../img/copy.svg);
   width: 132px;
   height: 32px;
   right: -135px;
