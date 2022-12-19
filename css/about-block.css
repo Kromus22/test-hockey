@@ -10,9 +10,9 @@
   padding-top: 100px;
   padding-left: 130px;
   padding-bottom: 100px;
-  padding-right: auto;
   border-radius: 100px 0 0 100px;
   z-index: 1;
+  transform: translateX(-130px);
 }
 
 .white-container:before {
@@ -36,11 +36,7 @@
 .about-us__content {
   display: flex;
   justify-content: space-between;
-  gap: 10px;
-}
-
-.about-us__company {
-  margin-right: 134px;
+  gap: 134px;
 }
 
 .company__text {
