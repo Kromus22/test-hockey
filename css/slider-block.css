@@ -1,6 +1,5 @@
 .slider-block {
   background-color: #131111;
-  position: relative;
   padding-bottom: 130px;
 }
 
@@ -8,26 +7,29 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.promo_inner {
   position: relative;
 }
 
-.slider-block::after {
+.promo_inner::after {
   position: absolute;
   content: '';
   background-image: url(../img/red.svg);
   width: 674px;
   height: 634px;
-  left: 220px;
+  left: -80px;
   top: 20px;
 }
 
-.slider-block::before {
+.promo_inner::before {
   position: absolute;
   content: '';
   background-image: url(../img/blue.svg);
   width: 878px;
   height: 645px;
-  right: 120px;
+  right: -190px;
   top: -50px;
 }
 
@@ -91,11 +93,11 @@
 }
 
 .swiper-button-left {
-  transform: translateX(350px);
+  transform: translateX(-560px);
   z-index: 1;
 }
 
 .swiper-button-right {
-  transform: translateX(1480px);
+  transform: translateX(560px);
   z-index: 2;
 }

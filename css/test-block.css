@@ -1,33 +1,33 @@
 .test-block {
-  position: relative;
   background-color: #131111;
   padding-bottom: 164px;
 }
 
-.test-block::after {
+.test {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.test::after {
   position: absolute;
   content: '';
   background-image: url(../img/red-circle.svg);
   width: 568px;
   height: 568px;
-  left: 370px;
+  left: 50px;
   top: 270px;
 }
 
-.test-block::before {
+.test::before {
   position: absolute;
   content: '';
   background-image: url(../img/blue-circle.svg);
   width: 568px;
   height: 568px;
-  right: 180px;
-  bottom: -50px;
-}
-
-.test {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  right: -180px;
+  bottom: -230px;
 }
 
 .test__title {
@@ -63,6 +63,6 @@
   width: 1050px;
   height: auto;
   top: 295px;
-  left: 390px;
+  left: 50px;
   z-index: 10;
 }

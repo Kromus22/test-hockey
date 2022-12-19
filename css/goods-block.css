@@ -1,27 +1,8 @@
 .goods-block {
-  position: relative;
   padding-top: 100px;
   padding-bottom: 293px;
   color: #333333;
-}
-
-.goods-block::after {
-  position: absolute;
-  content: '';
-  background-image: url(../img/white-ribbon.svg);
-  width: 100%;
-  height: 145px;
-  bottom: 30px;
-}
-
-.goods-block::before {
-  position: absolute;
-  content: '';
-  background-image: url(../img/blue-ribbon.svg);
-  width: 100%;
-  height: 235px;
-  bottom: -40px;
-  z-index: 10;
+  position: relative;
 }
 
 .goods__title {
@@ -49,6 +30,29 @@
   background-image: url(../img/arrow-right.svg);
   width: 78px;
   height: 58px;
+}
+
+.goods-block::after {
+  position: absolute;
+  content: '';
+  background-image: url(../img/white-ribbon.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 145px;
+  bottom: 30px;
+}
+
+.goods-block::before {
+  position: absolute;
+  content: '';
+  background-image: url(../img/blue-ribbon.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 235px;
+  bottom: -40px;
+  z-index: 10;
 }
 
 .goods__list {
