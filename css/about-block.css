@@ -40,10 +40,11 @@
 }
 
 .about-us__company {
-  width: 491px;
+  margin-right: 134px;
 }
 
 .company__text {
+  width: 491px;
   font-size: 18px;
   line-height: 24px;
   margin-bottom: 40px;
