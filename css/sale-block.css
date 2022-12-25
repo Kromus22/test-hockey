@@ -6,6 +6,10 @@
   overflow: hidden;
 }
 
+.sale__content {
+  position: relative;
+}
+
 .sale__text {
   font-weight: 700;
   font-size: 90px;
@@ -26,10 +30,32 @@
   transform: translateY(10px) translateX(-10px);
 }
 
+.blue_blur {
+  position: absolute;
+  content: '';
+  background: radial-gradient(50% 50% at 50% 50%, #0178F3 0%, rgba(1, 120, 243, 0) 100%);
+  filter: blur(32px);
+  width: 105px;
+  height: 105px;
+  top: 0;
+  left: 325px;
+}
+
 .shadow_red {
   filter: drop-shadow(0px 0px 10px rgb(246, 79, 0));
   -webkit-filter: drop-shadow(0px 0px 10px rgb(246, 79, 0));
   transform: translateY(10px);
+}
+
+.red_blur {
+  position: absolute;
+  content: '';
+  background: radial-gradient(50% 50% at 50% 50%, #F64F00 0%, rgba(246, 79, 0, 0) 100%);
+  filter: blur(32px);
+  width: 90px;
+  height: 90px;
+  top: 110px;
+  left: 0px;
 }
 
 .text_wrap {
